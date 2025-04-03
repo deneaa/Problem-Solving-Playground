@@ -1,5 +1,6 @@
 # Results Array Problem
-My solution is great, but it's not efficient with big arrays, I failed to solve this problem, if you have a better solution, feel free to contact me or open a pull request. 
+My solution is great, but it's not efficient with big arrays, I failed to solve this problem, but I found the solution and it's represented in resultsArrayV2.js
+
 
 # Problem from LeetCode
 Link to it: https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii
