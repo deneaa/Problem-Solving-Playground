@@ -103,6 +103,6 @@ var subarraySum = function(nums, k) {
 
 ## Links
 
-- LeetCode Problem: [Tuple With Same Product](https://leetcode.com/problems/tuple-with-same-product/)
+- LeetCode Problem: [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)
 - Author GitHub: [Denea](https://github.com/deneaa)
 
