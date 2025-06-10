@@ -20,3 +20,4 @@ var lexicalOrder = function (n) {
 
   return result;
 };
+    
