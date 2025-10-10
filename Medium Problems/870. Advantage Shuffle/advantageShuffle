@@ -1,0 +1,28 @@
+function advantageCount(nums1: number[], nums2: number[]): number[] {
+  nums1.sort((a, b) => a - b);
+
+  const n = nums1.length;
+  const num2 = nums2.map((num, idx) => [num, idx] as [number, number]);
+  num2.sort((a, b) => a[0] - b[0]);
+
+  const result = new Array(n);
+  const small: number[] = [];
+  let j = 0;
+
+  for (let num of nums1) {
+    if (num > num2[j][0]) {
+      result[num2[j][1]] = num;
+      j++;
+    } else {
+      small.push(num);
+    }
+  }
+
+  for (let i = 0; i < n; i++) {
+    if (result[i] === undefined) {
+      result[i] = small.pop()!;
+    }
+  }
+
+  return result;
+}
